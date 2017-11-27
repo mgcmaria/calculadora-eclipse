@@ -22,15 +22,9 @@ public class CalculadoraGit {
         int resul=num1-num2;
         return resul;
     }
-    public static boolean resta2(int a , int b) {
-    	if(num1>=num2) {
-    		return true;
-    	}else {
-    		return false;
-    	}
-    }
+    
     public static int multiplica(int a, int b){
-        int resul=num1*num2;
-         return resul;
+    	int resul=num1*num2;
+       return resul;
     }
 }
