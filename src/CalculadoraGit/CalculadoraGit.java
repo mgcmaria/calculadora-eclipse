@@ -5,35 +5,33 @@ public class CalculadoraGit {
 	private int num1;
 	private int num2;
 	
-	
 	public CalculadoraGit (int a, int b)
 	{
 		setNum1(a);
 		setNum2(b);
 	}
-	
-	//método suma
+	//mÃ©todo suma
 	public int suma ()
 	{
 		int resul=getNum1()+getNum2();
 		return resul;
 	}
 	
-	//método resta
+	//mÃ©todo resta
 	public int resta()
 	{
 		int resul=getNum1()-getNum2();
 		return resul;
 	}
 	
-	//método multiplicar
+	//mÃ©todo multiplicar
 	public int multiplica ()
 	{
 		int resul=getNum1()*getNum2();
 		return resul;
 	}
 	
-	//método dividir
+	//mÃ©todo dividir
 	public int divide ()
 	{
 		int resul=getNum1()/getNum2();
@@ -55,5 +53,4 @@ public class CalculadoraGit {
 	public void setNum2(int num2) {
 		this.num2 = num2;
 	}
-
 }
