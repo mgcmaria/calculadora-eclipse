@@ -2,9 +2,9 @@ package CalculadoraGit;
 
 public class CalculadoraGit {
 	
-<<<<<<< HEAD
 	private int num1;
 	private int num2;
+	
 	
 	public CalculadoraGit (int a, int b)
 	{
@@ -12,15 +12,31 @@ public class CalculadoraGit {
 		setNum2(b);
 	}
 	
+	//método suma
 	public int suma ()
 	{
 		int resul=getNum1()+getNum2();
 		return resul;
 	}
 	
+	//método resta
 	public int resta()
 	{
 		int resul=getNum1()-getNum2();
+		return resul;
+	}
+	
+	//método multiplicar
+	public int multiplica ()
+	{
+		int resul=getNum1()*getNum2();
+		return resul;
+	}
+	
+	//método dividir
+	public int divide ()
+	{
+		int resul=getNum1()/getNum2();
 		return resul;
 	}
 
@@ -40,37 +56,4 @@ public class CalculadoraGit {
 		this.num2 = num2;
 	}
 
-=======
-	
-	private static int num1;
-	  private  static int num2;
-	    public void calculadoraGit (int a, int b){
-	        num1=a;
-	        num2=b;
-	    }
-	public static int divide(int a, int b){
-        int resul=num1/num2;
-        return resul;
-        }
-	public static int suma(int a, int b){
-	        int resul= num1+num2;
-	        return resul;
-	        
-	    }
-	    public static int resta(int a, int b){
-	        int resul=num1-num2;
-	        return resul;
-	    }
-	    public static boolean resta2(int a , int b) {
-	    	if(num1>=num2) {
-	    		return true;
-	    	}else {
-	    		return false;
-	    	}
-	    }
-	    public static int multiplica(int a, int b){
-	        int resul=num1*num2;
-	         return resul;
-	    }
->>>>>>> branch 'master' of https://github.com/mgcmaria/calculadora-eclipse.git
 }
