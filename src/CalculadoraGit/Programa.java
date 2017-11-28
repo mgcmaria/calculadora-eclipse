@@ -20,11 +20,12 @@ public class Programa {
 		
 
 		CalculadoraGit calcular1 = new CalculadoraGit(n1,n2);	
-
+/*
 		System.out.println(+n1+" + "+n2+" = " + CalculadoraGit.suma(n1, n2));
 		System.out.println(+n1+" - "+n2+" = " + CalculadoraGit.resta(n1, n2));
 		System.out.println(n1+" * "+n2+" = " + CalculadoraGit.multiplica(n1, n2));
 		System.out.println(n1+" / "+n2+" = " + CalculadoraGit.divide(n1, n2));
+*/		
 		System.out.println(n1+"^2 + "+n2+"^2 = " + CalculadoraGit.sumaCuadrados(n1, n2));
 		System.out.println("----------------------");		
 
