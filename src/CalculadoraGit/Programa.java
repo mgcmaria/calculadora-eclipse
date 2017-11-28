@@ -18,6 +18,7 @@ public class Programa {
 		System.out.println("----------------------");
 		teclado.close();
 		
+
 		CalculadoraGit calcular1 = new CalculadoraGit(n1,n2);	
 
 		System.out.println(+n1+" + "+n2+" = " + CalculadoraGit.suma(n1, n2));
@@ -26,6 +27,11 @@ public class Programa {
 		System.out.println(n1+" / "+n2+" = " + CalculadoraGit.divide(n1, n2));
 		System.out.println(n1+"^2 + "+n2+"^2 = " + CalculadoraGit.sumaCuadrados(n1, n2));
 		System.out.println("----------------------");		
+
+		
+		System.out.println("----------------------");
+		
+		
 		LocalDate hoy = LocalDate.now();
 		System.out.println("Hoy es: "+hoy);
 		System.out.println("Hoy es con otro formato: "+hoy.getDayOfMonth()+"/"+hoy.getMonthValue()+"/"+hoy.getYear());

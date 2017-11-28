@@ -7,7 +7,7 @@ public class CalculadoraGit {
 	
 	public CalculadoraGit (int a, int b)
 	{
-		setNum1(a);
+		setNum11(a);
 		setNum2(b);
 	}
 	//método suma
@@ -38,6 +38,7 @@ public class CalculadoraGit {
 		return resul;
 	}
 	
+	//metodo suma de cuadrados
 	public static int sumaCuadrados (int n1, int n2)
 	{
 		int resul=getNum1()*getNum1()+getNum2()*getNum2();
@@ -51,15 +52,16 @@ public class CalculadoraGit {
 		return num1;
 	}
 
-	public void setNum1(int num1) {
+	public void setNum11(int num1) {
 		this.num1 = num1;
 	}
 
 	public static int getNum2() {
+
 		return num2;
 	}
 
-	public void setNum2(int num2) {
-		this.num2 = num2;
+		public void setNum2(int num2) {
+			this.num2 = num2;
 	}
-}
+}	
