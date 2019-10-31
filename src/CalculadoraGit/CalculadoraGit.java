@@ -2,43 +2,55 @@ package CalculadoraGit;
 
 public class CalculadoraGit {
 	
-	private int num1;
-	private int num2;
+	private static int num1;
+	private static int num2;
 	
 	public CalculadoraGit (int a, int b)
 	{
 		setNum1(a);
 		setNum2(b);
 	}
-	//mÃ©todo suma
-	public int suma ()
+	
+/*
+	//método suma
+	public static int suma (int n1, int n2)
 	{
 		int resul=getNum1()+getNum2();
 		return resul;
 	}
 	
-	//mÃ©todo resta
-	public int resta()
+	//método resta
+	public static int resta(int n1, int n2)
 	{
 		int resul=getNum1()-getNum2();
 		return resul;
 	}
 	
-	//mÃ©todo multiplicar
-	public int multiplica ()
+	//método multiplicar
+	public static int multiplica (int n1, int n2)
 	{
 		int resul=getNum1()*getNum2();
 		return resul;
 	}
 	
-	//mÃ©todo dividir
-	public int divide ()
+	//méodo dividir
+	public static int divide (int n1, int n2)
 	{
 		int resul=getNum1()/getNum2();
 		return resul;
 	}
-
-	public int getNum1() {
+*/
+	//método suma de cuadrados
+	public static int sumaCuadrados (int n1, int n2)
+	{
+		int resul=getNum1()*getNum1()+getNum2()*getNum2();
+		return resul;
+	}	
+	
+	
+	
+	// métodos get y set
+	public static int getNum1() {
 		return num1;
 	}
 
@@ -46,11 +58,12 @@ public class CalculadoraGit {
 		this.num1 = num1;
 	}
 
-	public int getNum2() {
+	public static int getNum2() {
+
 		return num2;
 	}
 
-	public void setNum2(int num2) {
-		this.num2 = num2;
+		public void setNum2(int num2) {
+			this.num2 = num2;
 	}
-}
+}	

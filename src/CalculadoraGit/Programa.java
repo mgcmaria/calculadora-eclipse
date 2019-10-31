@@ -18,23 +18,20 @@ public class Programa {
 		System.out.println("----------------------");
 		teclado.close();
 		
-		CalculadoraGit calcular1 = new CalculadoraGit(n1,n2);
-		CalculadoraGit calcular = new CalculadoraGit(20,10);
+
+		CalculadoraGit calcular1 = new CalculadoraGit(n1,n2);	
+/*
+		System.out.println(+n1+" + "+n2+" = " + CalculadoraGit.suma(n1, n2));
+		System.out.println(+n1+" - "+n2+" = " + CalculadoraGit.resta(n1, n2));
+		System.out.println(n1+" * "+n2+" = " + CalculadoraGit.multiplica(n1, n2));
+		System.out.println(n1+" / "+n2+" = " + CalculadoraGit.divide(n1, n2));
+*/		
+		System.out.println(n1+"^2 + "+n2+"^2 = " + CalculadoraGit.sumaCuadrados(n1, n2));
+		System.out.println("----------------------");		
+
 		
-
-		System.out.println("El resultado de sumar es: " + CalculadoraGit.suma(n1, n2));
-		System.out.println("El resultado de restar es: " + CalculadoraGit.resta(n1, n2));
 		System.out.println("----------------------");
-		System.out.println("El resultado de sumar es: " + CalculadoraGit.suma(n1, n2));
-		System.out.println("El resultado de restar es: " + CalculadoraGit.resta(n1, n2));
-
-		System.out.println("El resultado de sumar es: " + calcular.suma());
-		System.out.println("El resultado de restar es: " + calcular.resta());
-		System.out.println("----------------------");
-		System.out.println("El resultado de sumar es: " + calcular1.suma());
-		System.out.println("El resultado de restar es: " + calcular1.resta());
-
-		System.out.println("----------------------");
+		
 		
 		LocalDate hoy = LocalDate.now();
 		System.out.println("Hoy es: "+hoy);
